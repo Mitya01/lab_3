@@ -61,7 +61,19 @@ ping <IP-адрес машины, в которую нужно проверит�
 
 ![image](https://github.com/user-attachments/assets/7d7a0521-c280-4f71-bb66-8541358f2158)
 
+Для запрета достуа из VM_B в машину VM_C: я использовал в терминале VM_C:
 
+```bash
+sudo iptables -A INPUT -s <IP-адрес VM_B> -j DROP
+```
+
+Скриншот из терминала на котором виден запрет сетевого доступ от VM_B к VM_C:
+
+![image](https://github.com/user-attachments/assets/028497a0-b930-4dff-bce9-63a447c147b3)
+
+Общий скриншот
+
+![image](https://github.com/user-attachments/assets/e6de2c5f-0063-499a-9cca-cbeda95f6ba7)
 
 
 ## Вывод
