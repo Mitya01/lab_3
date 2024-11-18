@@ -71,7 +71,7 @@ sudo iptables -A INPUT -s <IP-адрес VM_B> -j DROP
 
 ![image](https://github.com/user-attachments/assets/028497a0-b930-4dff-bce9-63a447c147b3)
 
-Общий скриншот
+Общий скриншот:
 
 ![image](https://github.com/user-attachments/assets/e6de2c5f-0063-499a-9cca-cbeda95f6ba7)
 
