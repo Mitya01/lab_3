@@ -44,7 +44,7 @@
 
 Пример для VM_A:
 
-
+![image](https://github.com/user-attachments/assets/004855f2-3bec-410f-aab9-63c462b0be92)
 
 Для проверки доступа нужно вызывать в Терминале одной из машин команду:
 
@@ -54,11 +54,11 @@ ping <IP-адрес машины, в которую нужно проверит�
 
 Скриншот из терминала на котором виден сетевой доступ от VM_A к VM_B:
 
-![image](https://github.com/user-attachments/assets/3662ae3d-cc6e-427a-8123-6cad5b2edfbc)
+![image](https://github.com/user-attachments/assets/26cf9739-d0bf-4686-9e54-1fad8dde0ab5)
 
 Скриншот из терминала на котором виден сетевой доступ от VM_A к VM_C:
 
-![image](https://github.com/user-attachments/assets/7d7a0521-c280-4f71-bb66-8541358f2158)
+![image](https://github.com/user-attachments/assets/e61679f0-0c44-48e3-8661-49463ff511cd)
 
 Для запрета доступа из VM_B в машину VM_C: я использовал в терминале VM_C:
 
@@ -68,11 +68,9 @@ sudo iptables -A INPUT -s <IP-адрес VM_B> -j DROP
 
 Скриншот из терминала на котором виден запрет сетевого доступ от VM_B к VM_C:
 
-![image](https://github.com/user-attachments/assets/028497a0-b930-4dff-bce9-63a447c147b3)
+![image](https://github.com/user-attachments/assets/6c01e687-ffe5-4abd-9e2f-e1ae83681126)
 
 Общий скриншот:
-
-![image](https://github.com/user-attachments/assets/e6de2c5f-0063-499a-9cca-cbeda95f6ba7)
 
 
 ## Вывод
